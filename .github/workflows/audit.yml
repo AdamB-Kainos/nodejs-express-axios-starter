@@ -16,6 +16,6 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
       - name: run audit
-        run: npm instal
+        run: npm install
       - name: install dependencies
         run: npm audit
