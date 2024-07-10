@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe5d6b03-06d8-4a85-a176-8996aaea78b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/audit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/audit.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "002-audit-action",
+    "git-widget-placeholder": "003-build-action",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/adam.bowman/Desktop/Projects/EngineeringAcademy/IndividualContentProjects/nodejs-express-axios-starter",
     "settings.editor.selected.configurable": "http.certificates"
