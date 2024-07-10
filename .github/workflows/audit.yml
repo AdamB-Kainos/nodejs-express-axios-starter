@@ -1,4 +1,4 @@
-name: Node Linter
+name: Node Audit
 
 on:
   push:
@@ -17,5 +17,7 @@ jobs:
         uses: actions/setup-node@v3
       - name: install dependencies
         run: npm install
-      - name: run linter
-        run: npm run linter
+      - name: run audit fixes
+        run: npm audit fix
+      - name: run audit
+        run: npm audit
