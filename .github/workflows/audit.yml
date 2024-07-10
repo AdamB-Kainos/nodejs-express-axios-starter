@@ -18,6 +18,6 @@ jobs:
       - name: install dependencies
         run: npm install
       - name: run audit fixes
-        run: npm audit fix --force
+        run: npm audit fix
       - name: run audit
         run: npm audit
