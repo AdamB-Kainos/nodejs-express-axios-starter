@@ -17,5 +17,7 @@ jobs:
         uses: actions/setup-node@v3
       - name: install dependencies
         run: npm install
+      - name: run audit fixes
+        run: npm audit fix --force
       - name: run audit
         run: npm audit
